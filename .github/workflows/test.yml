@@ -6,10 +6,10 @@ jobs:
   install:
     strategy:
       matrix:
-        os: [macos-latest, macos-13, ubuntu-latest]
+        os: [macos-latest, ubuntu-latest]
     runs-on: ${{ matrix.os }}
     steps:
-      - uses: Homebrew/actions/setup-homebrew@master
+      - uses: Homebrew/actions/setup-homebrew@main
       - run: brew install prakhil-tp/tap/books-tui
       - run: brew test prakhil-tp/tap/books-tui
       - run: books-tui --version
