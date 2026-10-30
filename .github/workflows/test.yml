@@ -1,0 +1,15 @@
+name: test
+
+on: [push, workflow_dispatch]
+
+jobs:
+  install:
+    strategy:
+      matrix:
+        os: [macos-latest, macos-13, ubuntu-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: Homebrew/actions/setup-homebrew@master
+      - run: brew install prakhil-tp/tap/books-tui
+      - run: brew test prakhil-tp/tap/books-tui
+      - run: books-tui --version
