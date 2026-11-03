@@ -5,23 +5,23 @@ class BooksTui < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/Prakhil-tp/books-tui/releases/download/v0.1.1/books-tui-aarch64-apple-darwin.tar.gz"
-      sha256 "121332e487833c43e9807b2f477f6f4581a48e20a75215250e63dbc251bf26e6"
+      url "https://github.com/Prakhil-tp/books-tui/releases/download/v0.1.2/books-tui-aarch64-apple-darwin.tar.gz"
+      sha256 "b0b284f3b09e232c1cddfaaef7a4f7ea2b652d039f908cd58440d571a4f1e600"
     end
     on_intel do
-      url "https://github.com/Prakhil-tp/books-tui/releases/download/v0.1.1/books-tui-x86_64-apple-darwin.tar.gz"
-      sha256 "f5478ab9dc6cc376ca0a30bf018296e16d73b50dd9047be865b6a44004477942"
+      url "https://github.com/Prakhil-tp/books-tui/releases/download/v0.1.2/books-tui-x86_64-apple-darwin.tar.gz"
+      sha256 "22f8c4f12e07095417d23b5009a9dd00a32e4a23f9831b996f30cca973581dcf"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Prakhil-tp/books-tui/releases/download/v0.1.1/books-tui-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "9c3557281efe20810d2576d34dd3aed6c8683b577d822b978cf7f57cca119b20"
+      url "https://github.com/Prakhil-tp/books-tui/releases/download/v0.1.2/books-tui-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "3995425435d5e04031b4fb3c89aedde936e3bb5640da8a86bc325e8cb2ba9060"
     end
     on_intel do
-      url "https://github.com/Prakhil-tp/books-tui/releases/download/v0.1.1/books-tui-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "9220e90be5459d566c2fb9837374fc7fd420fc28efcaa9814849e4493ce06ae9"
+      url "https://github.com/Prakhil-tp/books-tui/releases/download/v0.1.2/books-tui-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "98256722c89104ca26201c8db646f0a0bda8f22dcc8070f037d8cf8c33c21c46"
     end
   end
 
